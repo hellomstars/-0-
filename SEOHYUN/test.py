@@ -9,13 +9,16 @@ def solution(denum1, num1, denum2, num2):
             break
     child1 = denum1*(new_num[0]/num1)
     child2 = denum2*(new_num[0]/num2)
+
     check = math.gcd(int(child1+child2), new_num[0])
-    if check != 1:
-        child1 = child1/check
-        child2 = child2/check
-        new_num.append(check)
-    answer = [int(child1+child2), new_num[0]]
-    return print(new_num, answer)
+    if check == 1:
+        answer = [int(child1+child2), new_num[0]]
+    else:
+        new_child1 = child1/check
+        new_child2 = child2/check
+        under = new_num[0]/check
+        answer = [int(new_child1+new_child2), int(under)]
+    return print(check, answer)
 
 solution(1,2,3,4)
 solution(9,2,1,3)
