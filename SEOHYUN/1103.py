@@ -68,5 +68,3 @@ def solution(slice, n):
     if n%slice !=0:
         answer += 1
     return answer
-
-#추가 더 풀기
