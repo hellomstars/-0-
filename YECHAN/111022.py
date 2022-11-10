@@ -35,13 +35,17 @@ def solution(array):
         return new_array[cnt_num.index(cnt_max)]
 
 #3_others
-
 def solution(array):
     while len(array) != 0:
         for i, a in enumerate(set(array)):
-            array.remove(a)
-        if i == 0: return a
+            array.remove(a) 
+
+        if i == 0: 
+            return a
+    
     return -1
+
+#enumerate()은 인덱스와 같이 값을 출력하는 것.
 
 #4
 def solution(n):
