@@ -127,5 +127,3 @@ def solution(numbers):
         numbers = numbers.replace(k, r[k])
     return int(numbers)
 '''
-
-#d
