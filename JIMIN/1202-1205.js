@@ -3,9 +3,8 @@
 function solution(i, j, k) {
     let answer = 0;  
     for(;i<=j;i++){
-        answer += i.toString().split('').map(Number).filter(v => v==k).length;
+        answer += i.toString().split('').filter(v => v==k).length;
     }
-
     return answer
 }
 
