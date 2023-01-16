@@ -5,3 +5,4 @@ function solution(n) {
 }
 
 console.log(solution(976));
+//test
