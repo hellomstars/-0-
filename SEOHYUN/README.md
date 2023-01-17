@@ -6,7 +6,7 @@
  -- [23.01.15] 8 questions left
 
 2. level_1 : 1단계
- -- [23.01.09] 34 questions left
+ -- [23.01.17] 33 questions left
  
 3. level_2 : 2단계
  -- [23.01.15] 84 questions left
