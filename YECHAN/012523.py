@@ -88,5 +88,3 @@ def solution(n):
     for i in answer:
         a += int(i)
     return a
-
-
