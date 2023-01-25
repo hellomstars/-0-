@@ -8,7 +8,7 @@ def solution(a, b):
         answer += i*b[b_num]
     return answer
 
-'''
+'''`
 다른 사람들은?
 
 return sum([x*y for x, y in solution(a,b)])
