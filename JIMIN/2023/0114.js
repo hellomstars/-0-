@@ -1,3 +1,5 @@
+//인덱스 바꾸기
+
 function solution(my_string, num1, num2) {
     let answer = my_string.split('');
 
