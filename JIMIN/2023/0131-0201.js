@@ -1,11 +1,13 @@
 // 로그인 성공?
 
 function solution(id_pw, db) {
+    let answer = 'fail';
     db.forEach((item) =>{
-        item[0] !== id_pw[0] ? answer = 'fail' : item[1] == id_pw[1] ? answer = 'login'  : answer = 'wrong pw' ;
+        if(item[0] == id_pw[0]){
+            item[1] == id_pw[1] ? answer = 'login': answer = 'wrong pw';
+        }
     });
     return answer;
-
 }
 
 let id_pw = ["meosseugi", "1234"];
